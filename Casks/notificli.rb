@@ -9,8 +9,8 @@ cask "notificli" do
 
   # Build from source using build.sh
   installer script: {
-    executable: "./build.sh",
-    cwd:        "#{staged_path}/NotifiCLI-#{version}",
+    executable: "bash",
+    args:       ["-c", "cd #{staged_path}/NotifiCLI-#{version} && ./build.sh"],
   }
 
   app "NotifiCLI-#{version}/build/NotifiCLI.app"
