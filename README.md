@@ -1,4 +1,4 @@
-# homebrew-notificli
+# Homebrew NotifiCLI
 
 Official Homebrew tap for [NotifiCLI](https://github.com/saihgupr/NotifiCLI), a lightweight, headless macOS command-line tool for sending actionable, persistent notifications.
 
