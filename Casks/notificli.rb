@@ -1,6 +1,6 @@
 cask "notificli" do
   version "1.4.1"
-  sha256 "893ecbcb52974923e3279f39b45140d5b8254fa026366689f71238f40905452c"
+  sha256 "f115e07f8c1efa0239bb9af38f3960d74f8439d66aab57353c99b75444691214"
 
   url "https://github.com/saihgupr/NotifiCLI/releases/download/v#{version}/NotifiCLI.dmg"
   name "NotifiCLI"
