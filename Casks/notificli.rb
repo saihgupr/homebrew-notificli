@@ -8,7 +8,7 @@ cask "notificli" do
   homepage "https://github.com/saihgupr/NotifiCLI"
 
   app "NotifiCLI.app"
-  binary "#{appdir}/NotifiCLI.app/Contents/MacOS/NotifiCLI", target: "notificli"
+  binary "#{appdir}/NotifiCLI.app/Contents/MacOS/notificli", target: "notificli"
 
   postflight do
     system_command "xattr", args: ["-cr", "#{appdir}/NotifiCLI.app"]
